@@ -4,8 +4,26 @@
   box-sizing: border-box;
 }
 
+body {
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem 0;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px;
+  margin: 0 auto;
+  max-width: 1000px;
+  gap: 1rem;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc((100% - 1rem * 6) / 7);
+  aspect-ratio: 1/1;
+  background-color: salmon;
 }
