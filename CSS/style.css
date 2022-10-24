@@ -5,12 +5,19 @@
 }
 
 body {
+  font-family: "Fuzzy Bubbles", cursive;
   text-align: center;
+  background-color: rgb(59, 95, 255);
 }
 
 h1 {
   margin: 2rem 0;
+  font-size: 5em;
+  font-weight: bold;
+  color: white;
+  text-shadow: 7px 7px 5px black;
 }
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +30,25 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
+  font-size: 1.5em;
   width: calc((100% - 1rem * 6) / 7);
   aspect-ratio: 1/1;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 7px rgb(23, 38, 104);
+  border: 2px solid black;
+}
+
+.fb {
   background-color: salmon;
+  color: rgb(197, 45, 90);
+}
+
+.fizz {
+  background-color: rgb(234, 0, 255);
+}
+
+.buzz {
+  background-color: rgb(240, 240, 72);
 }

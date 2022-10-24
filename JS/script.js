@@ -20,11 +20,11 @@ for (let i = 1; i <= 100; i++) {
   const five = i % 5;
 
   if (three === 0 && five === 0) {
-    eleSquare.innerHTML += `<div class="square">FizzBuzz</div>`;
+    eleSquare.innerHTML += `<div class="square fb">FizzBuzz</div>`;
   } else if (three === 0) {
-    eleSquare.innerHTML += `<div class="square">Fizz</div>`;
+    eleSquare.innerHTML += `<div class="square fizz">Fizz</div>`;
   } else if (five === 0) {
-    eleSquare.innerHTML += `<div class="square">Buzz</div>`;
+    eleSquare.innerHTML += `<div class="square buzz">Buzz</div>`;
   } else {
     eleSquare.innerHTML += `<div class="square">${i}</div>`;
   }
